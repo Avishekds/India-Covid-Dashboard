@@ -118,7 +118,7 @@ def statewise_data_window():
 st.title("COVID-19 India Dashboard")
 st.subheader("Developed by Avishek")
 st.sidebar.title("Interactive Covid-19 Visualization with Realtime Data")
-st.sidebar.markdown("The aim of this tool is  provide a realtime insights on the outbreak in of covid-19 India in the form of interactive charts. This web application will help to visualize the death rate, so that people doesnt get panicked")
+st.sidebar.markdown("The aim of this tool is to provide realtime insights on the outbreak of covid-19 in India in the form of interactive charts. This web application will help to visualize the death rate, so that people doesnt get panicked")
 
 with urllib.request.urlopen("https://api.covid19india.org/data.json") as url:
     data = json.loads(url.read().decode())
