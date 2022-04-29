@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run lasthope.py
+web: sh setup.sh && streamlit run Climate.py
